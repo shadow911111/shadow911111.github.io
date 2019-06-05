@@ -1,0 +1,170 @@
+
+/* Big tablets to 1200px (widths smaller than the 1140px) */
+@media only screen and (max-width: 1200px) {
+    .row {
+        max-width: 1170px;
+    }
+}
+
+/* Small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1024px) {
+    .row {
+        max-width: 990px;
+}
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .header-text {
+        max-width: 1010px;
+    }
+    .header-form {
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    
+    .scroll-to-top {
+        right: 2%;
+    }
+    
+    .working-process-stages {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .stage {
+        margin-bottom: 80px;
+    }
+    
+    .services-content {
+        justify-content: center;
+         margin: 70px 10px;
+    }
+    
+    .services-icons {
+        display: none;
+    }
+    
+    .team-members-holder {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .member:last-child {
+        margin-top: 100px;
+    }
+    
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .prev-arrow {
+        left: 0;
+    }
+    
+    .next-arrow {
+        right: 0;
+    }
+    
+    .dots-holder {
+        width: 15%;
+    }
+    
+}
+
+/* Small phones to small tablets: from 480px to 767px */
+@media only screen and (max-width: 768px) {
+    .services-image {
+        display: none;
+    }
+    
+    .team-members-holder {
+        margin-top: 50px;
+    }
+    
+    .member {
+        margin-top: 80px;
+    }
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .main-menu {
+        padding: 20px 15px 0 15px;
+    } 
+    
+    .featured-works-headings {
+        padding-top: 50px;
+    }
+    
+    .working-process-headings,
+    .featured-works-headings,
+    .services-headings,
+    .team-text,
+    .client-said-headings {
+        max-width: 450px;
+        padding-top: 55px;
+        margin: 0 auto; 
+    }
+    
+    .working-process-stages {
+        margin-top: 70px;
+    }
+    
+    .featured-works-example {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .services-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-text-headings div {
+        display: none;
+    }
+    
+    .services-text-paragraphs {
+        text-align: center;
+    }
+    
+    .services-content {
+        margin: 70px 10px;
+    }
+    
+    .team-members-holder {
+        margin-top: 0;
+        padding-bottom: 70px;
+    }
+    
+    .member {
+        margin-top: 80px;
+    }
+    
+    .slider {
+        margin-top: 0;
+    }
+    
+    .feedback {
+        max-width: 300px;
+        height: 250px;
+        border-radius: 20px;
+    }
+    
+    .feedback-text {
+        padding: 60px 15px 0 15px;
+    }
+    
+    .circle {
+        display: none;
+    }
+    
+    .dots-holder {
+        width: 30%;
+    }
+}
